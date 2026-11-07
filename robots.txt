@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dewminlabs.github.io/Dewmin-Labs/sitemap.xml
