@@ -450,8 +450,9 @@
                         <p class="text-neonCyan font-mono text-sm mt-1" id="display-email">dewminlabs@gmail.com</p>
                     </div>
                     <div class="flex flex-wrap gap-3">
-                        <a href="mailto:dewminlabs@gmail.com?subject=Vortex%20Studio%20PRO%20License%20Key%20Request&body=Hello%20Dewmin%20Labs,%0A%0AMy%20Hardware%20ID:%20VTX-XXXX-XXXX%0AMy%20Itch.io%20Receipt/Email:%20" class="px-5 py-2.5 rounded-xl bg-neonCyan text-black font-bold text-xs flex items-center gap-2">
-                            <i class="fa-solid fa-envelope"></i> Send Email Now
+                       <a href="https://mail.google.com/mail/?view=cm&fs=1&to=dewminlabs@gmail.com&su=Vortex%20Studio%20PRO%20License%20Key%20Request&body=Hello%20Dewmin%20Labs,%0A%0A1.%20My%20Hardware%20ID:%20VTX-%0A2.%20My%20Itch.io%20Receipt/Order%20ID:%20" target="_blank" class="px-5 py-2.5 rounded-xl bg-neonCyan text-black font-bold text-xs flex items-center gap-2 hover:opacity-90 transition-all shadow-cyan-glow">
+    <i class="fa-solid fa-envelope"></i> Send via Gmail (Direct)
+</a>
                         </a>
                         <a href="https://github.com/dewminlabs" target="_blank" class="px-4 py-2.5 rounded-xl bg-obsidian border border-borderSubtle text-white text-xs font-bold flex items-center gap-2 hover:border-neonCyan">
                             <i class="fa-brands fa-github"></i> GitHub
@@ -501,9 +502,15 @@
             <div class="flex flex-wrap justify-end gap-3 pt-2">
                 <button onclick="closeLicenseModal()" class="px-4 py-2.5 rounded-xl bg-obsidian border border-borderSubtle text-slate-300 text-xs font-bold">Close</button>
                 <!-- [EDIT-EMAIL-BUTTON] පහළ mailto: ලින්ක් එකේ තියෙන ඊමේල් එකත් ඔයාගේ ඊමේල් එකට වෙනස් කරන්න -->
-                <a href="mailto:dewminlabs@gmail.com?subject=Vortex%20Studio%20PRO%20License%20Key%20Request&body=Hello%20Dewmin%20Labs,%0A%0A1.%20My%20Hardware%20ID:%20VTX-%0A2.%20My%20Itch.io%20Purchase%20Email/Receipt:%20" class="px-5 py-2.5 rounded-xl bg-neonCyan text-black font-bold text-xs flex items-center gap-2">
-                    <i class="fa-solid fa-paper-plane"></i> Open Email & Send Request
-                </a>
+                <!-- 1. Copy Email Address Button -->
+<button onclick="navigator.clipboard.writeText('dewminlabs@gmail.com'); alert('Dewmin Labs Official Email copied to clipboard: dewminlabs@gmail.com');" class="px-4 py-2.5 rounded-xl bg-glass border border-borderSubtle text-slate-200 text-xs font-bold hover:border-neonCyan transition-all flex items-center gap-2">
+    <i class="fa-solid fa-copy text-neonCyan"></i> Copy Email
+</button>
+
+<!-- 2. Direct Gmail Web Open Button -->
+<a href="https://mail.google.com/mail/?view=cm&fs=1&to=dewminlabs@gmail.com&su=Vortex%20Studio%20PRO%20License%20Key%20Request&body=Hello%20Dewmin%20Labs,%0A%0A1.%20My%20Hardware%20ID:%20VTX-%0A2.%20My%20Itch.io%20Receipt/Order%20ID:%20" target="_blank" class="px-5 py-2.5 rounded-xl bg-neonCyan text-black font-bold text-xs flex items-center gap-2 hover:opacity-90 transition-all shadow-cyan-glow">
+    <i class="fa-solid fa-paper-plane"></i> Open Gmail & Send
+</a>
             </div>
         </div>
     </div>
